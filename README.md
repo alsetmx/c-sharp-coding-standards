@@ -50,12 +50,12 @@
     + [Circular Cascade Delete Rules](#circular-cascade-delete-rules)
   * [SQL](#sql)
     + [SQL Stored Procedures and Entity Framework](#sql-stored-procedures-and-entity-framework)
-  * [Data Access through Repositories](#data-access-through-repositories)
-  * [Cancellation Tokens](#cancellation-tokens)
-  * [API REST Controllers](#api-rest-controllers)
-    + [XML Comments and Decorators](#xml-comments-and-decorators)
-  * [Repositories in API Controllers](#repositories-in-api-controllers)
-  * [Visual Studio Scaffolding](#visual-studio-scaffolding)
+- [Data Access through Repositories](#data-access-through-repositories)
+- [Cancellation Tokens](#cancellation-tokens)
+- [API REST Controllers](#api-rest-controllers)
+  * [XML Comments and Decorators](#xml-comments-and-decorators)
+- [Repositories in API Controllers](#repositories-in-api-controllers)
+- [Visual Studio Scaffolding](#visual-studio-scaffolding)
 
 ### Introduction
 
@@ -1034,7 +1034,7 @@ In the example above, the FromSql method executes the stored procedure and retur
 
 Using stored procedures in your .NET application can improve performance and security while simplifying your code. By using Entity Framework Code First with Migrations, you can easily create and manage stored procedures, making it easy to incorporate them into your application.
 
-### Data Access through Repositories
+## Data Access through Repositories
 
 When working with Entity Framework, it's recommended to use the Repository pattern to access data. This pattern allows you to abstract away the details of the data access layer and provides a clear separation of concerns. Additionally, using interfaces for your repositories can simplify dependency injection and make your code more testable.
 
@@ -1093,15 +1093,15 @@ public class ExampleRepository : IExampleRepository
 }
 ```
 
-### Cancellation Tokens
+## Cancellation Tokens
 
 When working with long-running operations, including cancellation tokens as parameters for all methods is important. A cancellation token can be used to cancel the operation if it takes too long or if the user wants to stop it. This can be especially important when working with large datasets or when making calls to external services. You can make your code more responsive and user-friendly by including cancellation tokens as parameters.
 
-### API REST Controllers
+## API REST Controllers
 
 When working with API REST Controllers in a .NET application, it's important to follow some best practices to ensure that your API is well-documented and easy to use. Here are some guidelines to follow:
 
-#### XML Comments and Decorators
+### XML Comments and Decorators
 
 When creating API endpoints in .NET, it's important to include XML comments and decorators to provide clear and concise documentation for the endpoint. XML comments can describe the endpoint's purpose, provide sample requests and responses, and include any other relevant information. Decorators can be used to specify the HTTP method, response codes, and other metadata that can be used by tools like Swagger to generate documentation automatically.
 
@@ -1144,11 +1144,11 @@ In the example above, the XML comments provide information about the purpose of 
 
 By following these guidelines, you can create API endpoints that are well-documented and easy to use, making it easier for other developers to integrate with your application.
 
-### Repositories in API Controllers
+## Repositories in API Controllers
 
 When working with API Controllers, using the Repository pattern to access data is recommended, similar to the Entity Framework example in the previous section. This pattern allows you to abstract away the details of the data access layer and provides a clear separation of concerns. Additionally, using interfaces for your repositories can simplify dependency injection and make your code more testable.
 
-### Visual Studio Scaffolding
+## Visual Studio Scaffolding
 
 Visual Studio includes a powerful feature called scaffolding that can quickly generate code for common tasks. One common use case for scaffolding is to generate API Controllers for a .NET application. Scaffolding can save a lot of time and effort when creating new endpoints, and can help ensure that your code is consistent and follows best practices.
 
