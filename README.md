@@ -7,6 +7,7 @@
 | 2/2/2021 | 1.0 | Initial Version |
 | 5/30/2022 | 2.0 | DI |
 | 1/23/2023 | 3.0 | Notion |
+| 5/9/2023 | 4.0 | Repositories, Principles, Automated Testing, EF and Scaffolding |
 
 ### Table of Contents
 - [C# Coding Guidelines](#c--coding-guidelines)
