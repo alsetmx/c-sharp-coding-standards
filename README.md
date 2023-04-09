@@ -39,7 +39,7 @@
   * [Global Variables](#global-variables)
   * [Exception Handling](#exception-handling)
   * [Single Return Statements](#single-return-statements)
-  * [**SOLID Principles**](#--solid-principles--)
+- [SOLID Principles](#solid-principles)
 - [Project Basic Structure](#project-basic-structure)
 - [Dependency Injection](#dependency-injection)
 - [ORMs and Databases](#orms-and-databases)
@@ -685,7 +685,7 @@ public bool ExampleMethod(int exampleParameter)
 }
 ```
 
-### **SOLID Principles**
+## SOLID Principles
 
 Follow the SOLID principles to write maintainable, scalable, and extensible code. The SOLID principles are a set of principles that promote good object-oriented design. Here's an example:
 
